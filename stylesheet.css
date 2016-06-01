@@ -1,0 +1,139 @@
+/*Eric Meyers reset TEST*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header {
+  display: block;
+  margin: 0 auto;
+	padding-bottom: 18px;
+  background-color: white;
+  width: 100%;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+nav ul {
+	display: table;
+	position: relative;
+	width: auto;
+	margin: 0 auto;
+	list-style-type: none;
+	font-size: 16px;
+  font-family: Helvetica,Arial,sans-serif;
+	font-weight: bold;
+}
+
+nav li {
+  float: left;
+  margin: 0 5px;
+}
+
+nav a:link {
+	text-decoration: bold underline;
+	color: #480C52;
+}
+
+nav a {
+	padding: 5px 9px;
+}
+
+nav a:hover {
+	color: green;
+	background-color: rgb(153, 255, 153);
+}
+
+body {
+  background-color: #480C52;
+	background-image: url(img/background.png);
+	background-attachment: scroll;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 15px;
+}
+
+.box {
+	margin: 25px;
+	background-color: #C8A2C8;
+	padding: 15px 20px;
+}
+
+.box h2 {
+	font-weight: bold;
+	font-size: 18px;
+	padding-bottom: 7px;
+}
+
+.welcome h1 {
+	font-weight: bold;
+	font-size: 22px;
+	padding-bottom: 7px;
+}
+
+.group-pic section {
+	width: 55%;
+	float: left;
+}
+
+.group-pic aside {
+	width: 45%;
+	float: right;
+	padding-top: 15%;
+}
+
+.clearfix:after {
+  content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+	background-color: white;
+	padding: 15px 0 20px 0;
+	display: block;
+	font-family: Helvetica,Arial,sans-serif;
+	width: 100%;
+	bottom: 0;
+}
+
+ #footer-name {
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 15px;
+ }
+
+ #footer-copyright {
+	 font-size: 13px;
+	 text-transform: uppercase;
+	 padding-left: 15px;
+ }
+
+ .facebook {
+	 position: relative;
+
+ }
+
+ .facebook a {
+	 position: absolute;
+	 right: 25px;
+	 bottom: 6px;
+ }
